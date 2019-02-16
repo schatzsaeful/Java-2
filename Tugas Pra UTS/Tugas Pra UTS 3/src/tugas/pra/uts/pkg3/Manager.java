@@ -9,6 +9,7 @@ package tugas.pra.uts3;
  *
  * @author fujitsu
  */
+
 public class Manager extends Employee {
     
     private double bonus;

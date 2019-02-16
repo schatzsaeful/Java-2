@@ -9,6 +9,7 @@ package tugas.pra.uts.pkg3;
  *
  * @author fujitsu
  */
+
 class Employee {
     private String name;
     private String addres;

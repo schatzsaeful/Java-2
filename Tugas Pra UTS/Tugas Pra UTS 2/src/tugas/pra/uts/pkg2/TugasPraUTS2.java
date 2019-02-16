@@ -5,6 +5,12 @@
  */
 package tugas.pra.uts.pkg2;
 import java.util.Scanner;
+
+/**
+ *
+ * @author fujitsu
+ */
+
 public class TugasPraUTS2 {
     public static void main(String[] args) {
         System.out.println("*************************************************");

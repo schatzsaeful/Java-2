@@ -9,6 +9,7 @@ package tugas.pra.uts.pkg3;
  *
  * @author fujitsu
  */
+
 public class Staff extends Employee {
 
     public Staff(String name, String addres, double salary) {

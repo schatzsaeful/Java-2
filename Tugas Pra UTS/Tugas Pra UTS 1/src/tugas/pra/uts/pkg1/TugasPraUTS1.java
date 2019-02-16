@@ -6,6 +6,11 @@
 package tugas.pra.uts.pkg1;
 import java.util.Scanner;
 
+/**
+ *
+ * @author fujitsu
+ */
+
 public class TugasPraUTS1 {
 
     public static void main (String [] args){
