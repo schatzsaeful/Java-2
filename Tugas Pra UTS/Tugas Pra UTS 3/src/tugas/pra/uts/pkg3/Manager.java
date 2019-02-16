@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tugas.pra.uts.pkg3;
+package tugas.pra.uts3;
 
 /**
  *
@@ -13,17 +13,17 @@ public class Manager extends Employee {
     
     private double bonus;
 
-    public Manager(String name, String addres, double salary) {
+    public Manager(String name, String addres, double salary, double bonus) {
         super(name, addres, salary);
     }
 
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
-    }
+    public double getBonus() {
+        return bonus;
+    }  
 
     @Override
     public double getSalary() {
-        return salary + bonus;
+        return super.getSalary() + getBonus();
     }
     
 }

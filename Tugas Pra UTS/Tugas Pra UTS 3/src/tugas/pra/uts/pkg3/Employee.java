@@ -12,7 +12,7 @@ package tugas.pra.uts.pkg3;
 class Employee {
     private String name;
     private String addres;
-    public double salary;
+    private double salary;
 
     public Employee(String name, String addres, double salary) {
         this.name = name;
