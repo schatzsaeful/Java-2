@@ -18,7 +18,7 @@ public class Circle extends Shape {
         this.name = nama;
     }
 
-    public float getRadius() {
+    public float getJari2() {
         return jari2;
     }
 
