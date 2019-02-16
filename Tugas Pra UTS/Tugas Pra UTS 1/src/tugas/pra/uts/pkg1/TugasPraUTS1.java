@@ -15,6 +15,11 @@ public class TugasPraUTS1 {
         System.out.println("                   IF - Z                   ");
         System.out.println("");
         
+        System.out.println("Dadan       : Hai, Apakah Kamu Bisa Membuatkan Aku Sebuah Program? ");
+        System.out.println("Saeful      : Tentu Saja Bisa, Program Apa, Dan? ");
+        System.out.println("Andi        : Saya Membutuhkan Program Yang Bisa Menentukan Titik Koordinat Dari Sebuah Lingkaran Beserta Jari - Jarinya, Serta Bisa Menentukan Bahwa Lingkaran Pertama Dan Kedua Saling Bersinggungan, Saling Lepas, atau Saling Berada Di Dalam Lingkaran Tersebut ");
+        System.out.println("Saeful      : Tentu Saja Bisa, Saya Akan Membuatkannya Khusus Untukmu, Tunggu Beberapa Saat Yaa............ \n");
+        
         
         String c2;
         String c1;
@@ -222,9 +227,10 @@ public class TugasPraUTS1 {
             System.out.println("C2 dan C1 Saling Lepas");
 
         }
-            
-      
-           
+        
+        System.out.println("\n\nDadan            : Terima Kasih, Kau Memang Teman Terbaikku pul.. ");
+        System.out.println("Saeful           : Sama - Sama, itu Bukan Apa - Apa Kok... ");
+                 
     }
 
 }

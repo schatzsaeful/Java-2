@@ -7,25 +7,25 @@ package tugas.pra.uts.pkg2;
 import java.util.Scanner;
 public class TugasPraUTS2 {
     public static void main(String[] args) {
-        // 1. Header Program
         System.out.println("*************************************************");
         System.out.println("                   Saeful Husna                  ");
         System.out.println("                     1842809                     ");
         System.out.println("                     IF - Z                      ");
         System.out.println("*************************************************");
-        System.out.println("");
-
-        // 2. Variabel
+        
+        System.out.println("Andi        : Hai, Apakah Kamu Bisa Membuatkan Aku Sebuah Program? ");
+        System.out.println("Saeful      : Tentu Saja Bisa, Program Apa, ndi? ");
+        System.out.println("Andi        : Saya Membutuhkan Program Yang Bisa Mengurutkan Penawaran Untuk Suatu Produk Di Perusahaan Pelelangan Yang Saya Miliki ");
+        System.out.println("Saeful      : Tentu Saja Bisa, Saya Akan Membuatkannya Khusus Untukmu, Tunggu Beberapa Saat Yaa............ ");
+        
         int jumlah = 8;
         Scanner input = new Scanner(System.in);
 
-  
         int data[] = new int[jumlah];
 
-        // 4. Proses Perhitungan dan Hasil Output
         System.out.println("");
         for (int i = 0; i < jumlah; i++) {
-            System.out.printf("Masukkan data ke-%d: ", (i + 1));
+            System.out.printf("Masukkan Jumlah Penawaran Yang Anda Tawarkan %d: Rp. ", (i + 1));
             data[i] = input.nextInt();
         }
 
@@ -39,13 +39,16 @@ public class TugasPraUTS2 {
             }
         }
         System.out.println("");
-        System.out.println("Hasil pengurutan bilangan: ");
+        System.out.println("Hasil Pengurutan Penawaran Pelelangan Di Perusahaan Andi: ");
         for (int a = 0; a < jumlah; a++) {
-            System.out.print(data[a] + "  ");
+            System.out.print("Rp. " + data[a] + "  ");
         }
+        
+        System.out.println("\n\nAndi        : Terima Kasih, Kau Memang Teman Terbaikku pul.. ");
+        System.out.println("Saeful      : Sama - Sama, itu Bukan Apa - Apa Kok... ");
+        
         System.out.println("");
 
-        // 5. Footer
         System.out.println("");
         System.out.println("*************************************************");
   
