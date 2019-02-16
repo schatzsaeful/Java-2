@@ -32,35 +32,35 @@ public class TugasPraUTS1 {
  
        
         if(x1 > 0 && y1 > 0){
-            System.out.println("C1 berada pada kuadran I");
+            System.out.println("Lingkaran C1 berada pada kuadran I");
             c1 = "Kuadran I";
         } 
         
         else if(x1 < 0 && y1 > 0){
-            System.out.println("C1 berada di Kuadran II");
+            System.out.println("Lingkaran C1 berada di Kuadran II");
             c1 = "Kuadran II";
         } 
         
         else if(x1 < 0 && y1 < 0){
-            System.out.println("C1 berada di Kuadran III");
+            System.out.println("Lingkaran C1 berada di Kuadran III");
             c1 = "Kuadran III";
         } 
         
         else {
-            System.out.println("C1 berada di Kuadran IV");
+            System.out.println("Lingkaran C1 berada di Kuadran IV");
             c1 = "Kuadran IV";
         }
         
         
         int r1 = (x1 + y1) / 2;
-        System.out.println("\nJari - Jari r1 adalah: " + r1 + "\n");
         
+        System.out.print("\n");
         System.out.println("======================================================================");
         System.out.print("\n");
         
         System.out.println("Masukkan Titik atau Posisi Lingkaran C2: ");
         
-        System.out.print("\nMasukkan Posisi X2 : ");
+        System.out.print("Masukkan Posisi X2 : ");
         int x2 = input.nextInt();
         System.out.print("Masukkan Posisi y2 : ");
         int y2 = input.nextInt();
@@ -68,30 +68,37 @@ public class TugasPraUTS1 {
         System.out.print("\n");
        
         if(x2 > 0 && y2 > 0){
-            System.out.println("C2 berada di Kuadran I");
+            System.out.println("Lingkaran C2 berada di Kuadran I");
             c2 = "Kuadran I";
         }
         
         else if( x2 < 0 && y2 > 0){
-            System.out.println("C2 berada di Kuadran II");
+            System.out.println("Lingkaran C2 berada di Kuadran II");
             c2 = "Kuadran II";
         }
         
         else if(x2 < 0 && y2 < 0){
-            System.out.println("C2 berada di Kuadran III");
+            System.out.println("Lingkaran C2 berada di Kuadran III");
             c2 = "Kuadran III";
         }
         
         else {
-            System.out.println("TC2 berada di Kuadran IV");
+            System.out.println("Lingkaran C2 berada di Kuadran IV");
             c2 = "Kuadran IV";
         }
         
         int r2 = (x2 + y2) / 2;
-        System.out.println("\nJari - Jari r2 adalah: " + r2);
         
+        System.out.println("");
         System.out.println("======================================================================");
-        System.out.print("\n");
+        System.out.println("");
+        
+        System.out.println("Nilai Titik pada Lingkaran c1 adalah x1 dan y1: (" + x1 + " , " + y1 + ") Berjari - jari: " + r1);
+        System.out.println("Nilai Titik pada Lingkaran c2 adalah x2 dan y2: (" + x2 + " , " + y2 + ") Berjari - jari: " + r2);
+        
+        System.out.println(""); 
+        System.out.println("======================================================================");
+        System.out.println("");
         
         // C1 Di dalam C2
         
@@ -213,12 +220,7 @@ public class TugasPraUTS1 {
         
         else {
             System.out.println("C2 dan C1 Saling Lepas");
-            System.out.println("C1 berada pada Kuadran: " + c1 + "\nC2 Berada pada Kuadran: " + c2);
-            
-            System.out.println("Nilai x1 dan y1: (" + x1 + " , " + y1 + ")");
-            System.out.println("Nilai x2 dan y2: (" + x2 + " , " + y2 + ")");
-            
-            System.out.println("Tidak Saling Berkaitan atau berdekatan satu sama lain");
+
         }
             
       
@@ -227,4 +229,4 @@ public class TugasPraUTS1 {
 
 }
            
- 
+
