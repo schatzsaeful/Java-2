@@ -16,6 +16,11 @@ public class Manager extends Employee {
 
     public Manager(String name, String addres, double salary, double bonus) {
         super(name, addres, salary);
+        this.bonus = bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
     }
 
     public double getBonus() {
