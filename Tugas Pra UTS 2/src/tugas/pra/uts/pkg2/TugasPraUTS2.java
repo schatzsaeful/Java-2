@@ -16,21 +16,21 @@ public class TugasPraUTS2 {
         System.out.println("");
 
         // 2. Variabel
-        int jml_data = 8;
+        int jumlah = 8;
         Scanner input = new Scanner(System.in);
 
   
-        int data[] = new int[jml_data];
+        int data[] = new int[jumlah];
 
         // 4. Proses Perhitungan dan Hasil Output
         System.out.println("");
-        for (int i = 0; i < jml_data; i++) {
+        for (int i = 0; i < jumlah; i++) {
             System.out.printf("Masukkan data ke-%d: ", (i + 1));
             data[i] = input.nextInt();
         }
 
-        for (int x = 0; x < jml_data - 1; x++) {
-            for (int i = 0; i < jml_data - 1; i++) {
+        for (int x = 0; x < jumlah - 1; x++) {
+            for (int i = 0; i < jumlah - 1; i++) {
                 if (data[i] < data[i + 1]) {
                     int j = data[i];
                     data[i] = data[i + 1];
@@ -40,7 +40,7 @@ public class TugasPraUTS2 {
         }
         System.out.println("");
         System.out.println("Hasil pengurutan bilangan: ");
-        for (int a = 0; a < jml_data; a++) {
+        for (int a = 0; a < jumlah; a++) {
             System.out.print(data[a] + "  ");
         }
         System.out.println("");
